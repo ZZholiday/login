@@ -19,7 +19,7 @@
   // Here you describe each environment
   "deploy" : {
     "production" : {
-      "user" : "node",
+      "user" : "root",
       // Multi host is possible, just by passing IPs/hostname as an array
       "host" : ["182.92.187.94"],
       // Branch
@@ -53,7 +53,7 @@
       }
     },
     "staging" : {
-      "user" : "node",
+      "user" : "root",
       "host" : "182.92.187.94",
       "ref"  : "origin/master",
       "repo" : "git@github.com:ZZholiday/Compiler-Simulation.git",
