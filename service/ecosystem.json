@@ -11,7 +11,7 @@
     "env_production" : {
       "NODE_ENV": "production"
     }
-  },
+  }],
   // Deployment part
   // Here you describe each environment
   "deploy" : {
