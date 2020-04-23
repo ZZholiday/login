@@ -27,7 +27,7 @@
       // Git repository to clone
       "repo" : "git@github.com:ZZholiday/Compiler-Simulation.git",
       // Path of the application on target servers
-      "path" : "/usr/pro",
+      "path" : "/usr/pro/Compiler-Simulation",
       // Can be used to give options in the format used in the configura-
       // tion file.  This is useful for specifying options for which there
       // is no separate command-line flag, see 'man ssh'
@@ -57,7 +57,7 @@
       "host" : "182.92.187.94",
       "ref"  : "origin/master",
       "repo" : "git@github.com:ZZholiday/Compiler-Simulation.git",
-      "path" : "/usr/pro",
+      "path" : "/usr/pro/Compiler-Simulation",
       "ssh_options": ["StrictHostKeyChecking=no", "PasswordAuthentication=no"], 
       "post-deploy" : "pm2 startOrRestart ecosystem.json --env dev",
       "env" : {
