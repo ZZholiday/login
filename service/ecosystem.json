@@ -25,14 +25,14 @@
       // Branch
       "ref"  : "origin/master",
       // Git repository to clone
-      "repo" : "https://github.com/ZZholiday/Compiler-Simulation.git",
+      "repo" : "git@github.com:ZZholiday/Compiler-Simulation.git",
       // Path of the application on target servers
       "path" : "/usr/pro/Compiler-Simulation",
       // Can be used to give options in the format used in the configura-
       // tion file.  This is useful for specifying options for which there
       // is no separate command-line flag, see 'man ssh'
       // can be either a single string or an array of strings
-      //"ssh_options": "StrictHostKeyChecking=no",
+      "ssh_options": "StrictHostKeyChecking=noAAAAB3NzaC1yc2EAAAADAQABAAABgQC3iD0bE1laSP+xOaZfKiz+CvlGbZgQNcSZxFuTbClI3YJD9wTzxA7jHzJZZ2dBr8VCvAEm9nt4rkSiI2NpdtFbgvFtPdtb3htjqrQPmxgx6JE3ol51bQ1L6zWU8Kku3lLVDGqd9tAEqdfyaav32YJhbSxXyfpwifXUqZVSNcTR9u57F+ikRYVPRRRy9bqAzqL4whYwmCTRSmYebV2cI4uUUn7XA8SGA7hFnBPfSW3yYX+918mRamN0V9Y/tdF5IwtAxfkD4QgP2WkSkPNp9a6pya3cP6PCitE+QlwuujVUk6NoK83nVR1zomwQZQfdg2+LQtW3Pp96GTJHeNR/V2RLcN7g0VOsqjkpr0znyO6icXU9V7WfYaeEs40Pfww2m4EbbdGuPmxz7C6zrD5J860pnaVd6KKHuGBStM/TMV5N+uBHfAySWdDYXKdcFpBDs9/M+ACEvZfelJNXhDK6SN5OgsWHqfH4zinifeUrAnJ9uaxZztlTRIpd0X+1Wl5v3f8= 35563@DESKTOP-A3S8SJ1 ",
       // To prepare the host by installing required software (eg: git)
       // even before the setup process starts
       // can be multiple commands separated by the character ";"
@@ -56,11 +56,11 @@
       "user" : "node",
       "host" : "182.92.187.94",
       "ref"  : "origin/master",
-      "repo" : "https://github.com/ZZholiday/Compiler-Simulation.git",
+      "repo" : "git@github.com:ZZholiday/Compiler-Simulation.git",
       "path" : "/usr/pro/Compiler-Simulation",
-      // "ssh_options": ["StrictHostKeyChecking=no", "PasswordAuthentication=no"],
+      "ssh_options": ["StrictHostKeyChecking=AAAAB3NzaC1yc2EAAAADAQABAAABgQC3iD0bE1laSP+xOaZfKiz+CvlGbZgQNcSZxFuTbClI3YJD9wTzxA7jHzJZZ2dBr8VCvAEm9nt4rkSiI2NpdtFbgvFtPdtb3htjqrQPmxgx6JE3ol51bQ1L6zWU8Kku3lLVDGqd9tAEqdfyaav32YJhbSxXyfpwifXUqZVSNcTR9u57F+ikRYVPRRRy9bqAzqL4whYwmCTRSmYebV2cI4uUUn7XA8SGA7hFnBPfSW3yYX+918mRamN0V9Y/tdF5IwtAxfkD4QgP2WkSkPNp9a6pya3cP6PCitE+QlwuujVUk6NoK83nVR1zomwQZQfdg2+LQtW3Pp96GTJHeNR/V2RLcN7g0VOsqjkpr0znyO6icXU9V7WfYaeEs40Pfww2m4EbbdGuPmxz7C6zrD5J860pnaVd6KKHuGBStM/TMV5N+uBHfAySWdDYXKdcFpBDs9/M+ACEvZfelJNXhDK6SN5OgsWHqfH4zinifeUrAnJ9uaxZztlTRIpd0X+1Wl5v3f8= 35563@DESKTOP-A3S8SJ1", "PasswordAuthentication=abcdABCD1234"], 
       "post-deploy" : "pm2 startOrRestart ecosystem.json --env dev",
-      "env"  : {
+      "env" : {
         "NODE_ENV": "staging"
       }
     }
